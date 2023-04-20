@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+}
+
+.nav {
+  margin: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Subscribe_title {
+  color: slategray;
+  font-size: 1.3rem;
+  margin-top: 15px;
+}
+
+.Subscribe_title:hover {
+  color: black;
+  font-weight: 700;
+}
+
+.Main_title {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  letter-spacing: 1;
+  text-decoration: underline;
+  margin-right: 90px;
+}
+
+.Search_image {
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.box {
+  border: 1px solid slategrey;
+  /* width: 400px;
+  height: 200px; */
+  box-shadow: 2px 2px 3px slategrey, -2px -2px 3px slategrey;
+  font-family: "Mulish", sans-serif;
+}
+
+.box:hover {
+  transition: all;
+  transition-duration: 200ms;
+  transform: scale(1.1);
+}
+
+.item {
+  padding: 15px;
+  position: relative;
+}
+
+.Sub-heading-box1 {
+  color: #1f75fe;
+  font-weight: 800;
+  padding-bottom: 8px;
+}
+
+.Continue_link {
+  position: relative;
+  bottom: -8px;
+  color: #1f75fe;
+  font-weight: 800;
+}
