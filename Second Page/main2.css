@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-color: whitesmoke;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Subscribe_title {
+  color: slategray;
+  font-size: 1.3rem;
+  margin-top: 15px;
+}
+
+.Subscribe_title:hover {
+  color: black;
+  font-weight: 700;
+}
+
+.Main_title {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  letter-spacing: 1;
+  text-decoration: underline;
+  margin-right: 90px;
+}
+
+.Search_image {
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+}
+
+.grid-container {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+.second-box {
+  margin-left: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.about-box {
+  background-color: slategrey;
+  border: 1px slategrey solid;
+  border-radius: 10px;
+  padding: 8px;
+  font-style: italic;
+}
+
+.archives-box {
+  font-style: italic;
+  margin-left: 35px;
+}
+
+.archives-heading {
+  font-weight: bolder;
+}
+
+.archives-list {
+  color: #1f75fe;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+}
+
+.else-where {
+  font-style: italic;
+  margin-left: 35px;
+}
+
+.else-where-heading {
+  font-weight: bolder;
+}
+
+.else-where-list {
+  color: #1f75fe;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+}
