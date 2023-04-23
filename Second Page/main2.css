@@ -8,8 +8,7 @@
 
 .wrapper {
   background-color: whitesmoke;
-  width: 100vw;
-  height: 100vh;
+
   /* overflow: hidden; */
 }
 
@@ -117,6 +116,16 @@
   }
 
   .Search_image {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 620px) {
+  .grid-container {
+    display: block;
+  }
+
+  .second-box {
     display: none;
   }
 }
