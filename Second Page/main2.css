@@ -10,7 +10,7 @@
   background-color: whitesmoke;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .container {
@@ -86,6 +86,10 @@
   flex-direction: column;
 }
 
+#list {
+  list-style-type: none;
+}
+
 .else-where {
   font-style: italic;
   margin-left: 35px;
@@ -100,4 +104,19 @@
   font-weight: 800;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .Subscribe_title {
+    display: none;
+  }
+
+  .Main_title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Search_image {
+    display: none;
+  }
 }
